@@ -1,0 +1,63 @@
+.main-menu {
+    display: inline-block;
+    position: relative;
+
+}
+
+.menu-item {
+    position: relative;
+    display: inline-block;
+    align-items: center;
+    padding: 15px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+
+
+.sub-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #11192A;
+    border-top: none;
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+}
+
+.sub-menu-items {
+    display: flex;
+    /* Display sub-items in a row */
+    flex-direction: row;
+    /* Horizontal layout */
+    justify-content: flex-start;
+    /* Align items to the start of the container */
+    gap: 16px;
+    /* Add spacing between sub-items */
+    padding: 8px 16px;
+    /* Add padding */
+}
+
+.sub-menu :hover {
+    background-color: #353a45;
+
+}
+
+
+.sub-menu-link {
+    display: block;
+    padding: 8px 16px;
+    font-size: 16px;
+    color: #ffffff;
+    /* Change link color */
+    text-decoration: none;
+    /* Remove default underline */
+    transition: background-color 0.2s ease;
+    /* Add transition effect */
+}
+
+.sub-menu-link:hover {
+    background-color: #353a45;
+    /* Change background color on hover */
+}

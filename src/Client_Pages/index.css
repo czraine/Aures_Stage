@@ -1,0 +1,110 @@
+.CardImage {
+    object-Fit: scale-down;
+    height: 150px !important;
+}
+
+.CardItem {
+    margin: 9px;
+}
+
+.navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #b4d3f1;
+}
+
+.search-input {
+    color: #ffffff;
+    position: relative;
+    padding: 2px 6px;
+    font-size: 12px;
+    border-radius: 50%;
+    top: -5px;
+    right: -5px;
+    /* Remove default padding */
+    /* Remove border */
+    background-color: transparent;
+    transition: padding 0.5s;
+}
+
+.search-input:hover {
+    padding: 0px;
+    /* Add padding on hover */
+    background-color: #080b0e;
+    color: #ffffff;
+    transition: padding 0.5s, background-color 0.5s, color 0.5s;
+}
+
+.nav-menu {
+    background-color: #b4d3f1;
+    border: none;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+.cart-item-count {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 12px;
+}
+
+.App {
+    text-align: center;
+}
+
+.trigger {
+    font-size: 18px;
+    line-height: 64px;
+    padding: 0 24px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.trigger:hover {
+    color: #980dc6;
+}
+
+.right-align {
+    margin-right: auto;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 10px;
+}
+
+.search-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.search-baring {
+    width: 250px;
+
+    /* Adjust the width as needed */
+}
+
+/* Add this CSS to your existing styles or a separate CSS file */
+.footer {
+    background-color: #f5fafd;
+    font-size: large;
+    padding: 20px 0;
+    margin-top: auto;
+    /* Push the footer to the bottom */
+}
+
+.last-footer {
+    background-color: #f5fafd;
+    font-size: large;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
